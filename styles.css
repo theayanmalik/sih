@@ -45,7 +45,7 @@ nav a {
     font-weight: bold;
 }
 
-/* Add padding and style to sections */
+
 section {
     padding: 40px;
     text-align: center;
@@ -58,24 +58,24 @@ section h2 {
     margin-bottom: 20px;
 }
 
-/* Style section content */
+
 section p {
     font-size: 16px;
     line-height: 1.6;
-    color: #555; /* Slightly darker text color */
+    color: #555; 
     margin-bottom: 20px;
 }
 
-/* Style featured product boxes */
+
 .product {
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.9); 
     padding: 20px;
-    margin-right: 20px; /* Add margin to create spacing between product boxes */
-    margin-bottom: 20px; /* Add margin to create space below each product box */
-    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+    border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    max-width: 300px; /* Set a fixed width for the product box */
-    float: left; /* Make product boxes float left */
+    max-width: 280px;
+    float: left; 
 }
 
 .product img {
@@ -86,37 +86,36 @@ section p {
 
 .product h3 {
     font-size: 20px;
-    color: #333; /* Dark text color */
+    color: #333;
     margin-bottom: 10px;
 }
 
 .product p {
     font-size: 16px;
-    color: #555; /* Slightly darker text color */
+    color: #555; 
 }
 
-/* Clear the float after product boxes to prevent layout issues */
+
 #products::after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Add spacing between product boxes */
+
 .product + .product {
-    margin-right: 0; /* Remove right margin for the last product in the row */
+    margin-right: 0; 
 }
 
-/* Style the footer */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
-    color: #fff; /* White text color */
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff;
     font-size: 14px;
 }
 
-/* Responsive design for smaller screens */
+
 @media screen and (max-width: 768px) {
     header h1 {
         font-size: 24px;
