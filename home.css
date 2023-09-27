@@ -272,8 +272,8 @@ a {
   margin: 10px 0;
 }
 .card .content .btn button{
-  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
-  color: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  background: linear-gradient(90deg, #f10606 0%, #3F5EFB 100%);
+  color: linear-gradient(90deg, #fd0000 0%, #3F5EFB 100%);
   border: none;
   outline: none;
   font-size: 17px;
